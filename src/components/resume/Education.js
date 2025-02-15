@@ -42,15 +42,15 @@ University in Bhopal, Madhya Pradesh
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2022 - 2024</p>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
         <ResumeCard
-            title="Co-Founder at Soch Technology"
-            subTitle="Soch Technology - (2024 - present)"
+            title="Co-Founder at Techno Skill"
+            subTitle="Soch Technology - (2025 - present)"
             result="Balaghat,MadhyaPradesh"
-            des="As a Co-Founder at Soch Technology, I played a pivotal role in shaping the vision and growth of the company. I contributed to business strategy, product development, and client relations, ensuring the delivery of innovative technology solutions.. "
+            des="Technoskill Coaching Classes: Empowering beginners with industry-relevant coding, development, AI tools, and career-focused mentorship to build a future in tech!"
           />
           <ResumeCard
             title="Frontend Developer"

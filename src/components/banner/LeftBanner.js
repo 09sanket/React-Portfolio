@@ -1,7 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import {
-  FaFacebookF,
+  FaInstagram,
   FaTwitter,
   FaLinkedinIn,
   FaReact,
@@ -52,9 +52,9 @@ const LeftBanner = () => {
                 <FaGithub />
               </span>
             </a>
-            <a href="https://www.facebook.com/share/1B3cwbznoZ/?mibextid=LQQJ4d" target="blank">
+            <a href="https://www.instagram.com/techno._skill?igsh=MXVjY2tjYzE3ZTRteQ%3D%3D&utm_source=qr" target="blank">
               <span className="bannerIcon">
-                <FaFacebookF />
+              <FaInstagram />
               </span>
             </a>
             <a href="https://x.com/home" target="blank">

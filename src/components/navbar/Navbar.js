@@ -4,6 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
+
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {

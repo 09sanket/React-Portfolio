@@ -1,6 +1,8 @@
 import React from 'react';
 import Title from '../layouts/Title';
-import { projectOne, projectTwo, projectThree, Soch, Times, Computer, safety, PortfolioS, Ai } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, Soch, Times, Computer, safety, Ai, Project1,
+  Project2, 
+  Project3, Project4, Project5, Project6, Project7, Project8, Project9, Project10,} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -17,69 +19,70 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
       <ProjectsCard
+          title="Techno Skill"
+          des="Technoskill Coaching Classes: Empowering beginners with industry-relevant coding, development, AI tools, and career-focused mentorship to build a future in tech!"
+          src={Project1}
+          githubLink="https://github.com/09sanket?tab=repositories"
+          liveLink="https://technoskills.in/"
+        />
+      <ProjectsCard
           title="Soch Technology"
-          des="Its focus is on delivering strategic insights, innovation, and transformative solutions to help businesses succeed."
-          src={Soch}
+          des="Soch Technology: Innovating the future with cutting-edge digital solutions, software development, and tech-driven strategies. Empowering businesses with smart, scalable, and efficient technology!"
+          src={Project2}
           githubLink="https://github.com/09sanket?tab=repositories"
           liveLink="https://sochtechnology.in/"
         />
          <ProjectsCard
-          title="Portfolio Website"
-          des="A responsive portfolio website showcasing projects and skills."
-          src={PortfolioS}
+          title="Yasragroupin2in"
+          des="Providing expert migration services with seamless transitions and hassle-free processing. Your trusted partner for visas, relocations, and global opportunities!"
+          src={Project3}
           githubLink="https://github.com/09sanket?tab=repositories"
-          liveLink="https://sochtechnologycreations.netlify.app/"
+          liveLink="https://in2inimmigrations.com/"
         />
       <ProjectsCard
-          title=" Yashrag MigrationHub In2In Immigration"
-          des="focuses on providing expert migration services, here are some name suggestions"
-          src={projectTwo}
+          title=" NeetNext Guide"
+          des="NeetGuide: Your ultimate companion for NEET preparation, offering expert guidance, study materials, and strategic insights to help you excel. Stay ahead with the latest updates, tips, and a structured learning path for your medical entrance journey!"
+          src={Project4}
           githubLink="https://github.com/09sanket?tab=repositories"
-          liveLink="https://yashragroup.com/"
+          liveLink="https://neetnext.com/"
         />
         <ProjectsCard
-          title="Times Bridge Business Consulting Firm"
-          des="Its focus is on delivering strategic insights, innovation, and transformative solutions to help businesses succeed."
-          src={Times}
+          title="Yasraglobal Technology"
+          des="Providing expert migration services with seamless transitions and hassle-free processing. Your trusted partner for visas, relocations, and global opportunities!"
+          src={Project5}
           githubLink="https://github.com/09sanket?tab=repositories"
-          liveLink="https://timebriz.com/"
+          liveLink="https://yashraglobaltechnologies.com/"
         />
+        
         <ProjectsCard
-          title="Computer House Retail and service Store"
-          des="An efficient tool to manage tasks and collaborate with teams in real-time."
-          src={Computer}
-          githubLink="https://github.com/09sanket?tab=repositories"
-          liveLink="https://computerhouse.co.in/"
-        />
-        <ProjectsCard
-          title="Safety Radius Vehicle Safety and tracking Solutions"
+          title="Safety Radius"
           des="Stay Alert with Safety Radius focuses on vehicle safety and tracking solutions, here are some name suggestions"
-          src={safety}
+          src={Project6}
            githubLink="https://github.com/09sanket?tab=repositories"
           liveLink="https://safetyradius.it.com/"
         />
         <ProjectsCard
-          title="Social Media Clone"
-          des="A modern social media platform with real-time chat and posts functionality."
-          src={projectOne}
+          title=" Mount Carmel School"
+          des="Empower your child's future with our school website – a hub for seamless learning, academic resources, and essential updates. Stay connected with interactive features, event highlights, and a dynamic education experience!"
+          src={Project7}
           githubLink="https://github.com/09sanket?tab=repositories"
-          liveLink="https://skynter-instagram-clone.onrender.com/"
+          liveLink="https://demo.smart-school.in/"
         />
         <ProjectsCard
-          title="Chatting App"
-          des="A secure chatting application with end-to-end encryption and real-time notifications."
-          src={projectThree}
+          title="Ecommerce Website"
+          des="Discover the ultimate shopping experience with our eCommerce website – offering a wide range of products, seamless navigation, and secure checkout. Shop with ease and enjoy great deals, fast delivery, and top-notch customer service!"
+          src={Project8}
           githubLink="https://github.com/09sanket?tab=repositories"
-          liveLink="https://groupchat-mern.onrender.com/chats"
+          liveLink="https://demo.shopking.dev/home"
         />
         
        
         <ProjectsCard
-          title="AI Brain Application"
-          des="Explore the Possibilities of AI Chatting with BrainwaveCurve"
-          src={Ai}
+          title="Empowerrall Gym Website"
+          des="Transform your fitness journey with our gym website – your destination for expert training, workout plans, and membership access. Stay motivated with personalized programs, class schedules, and the latest fitness trends!"
+          src={Project9}
           githubLink="https://github.com/09sanket?tab=repositories"
-          liveLink="https://jsm-brainwave.com/"
+          liveLink="https://empowerrall.com/"
         />
         
         

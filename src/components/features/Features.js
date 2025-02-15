@@ -27,8 +27,8 @@ const Features = () => {
           icon={<AiFillAppstore />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Enhancing your online visibility with cutting-edge SEO strategies and tools."
+          title="Mentorship"
+          des="Unlock your potential with expert mentorship, guiding you every step toward success in tech and beyond!."
           icon={<SiProgress />}
         />
         <Card
